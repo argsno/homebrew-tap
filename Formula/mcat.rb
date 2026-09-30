@@ -1,7 +1,4 @@
-# mcat 的 Homebrew formula 模板。
-# release workflow（.github/workflows/release.yml）把 __*__ 占位符填成真实值后
-# 推到 argsno/homebrew-tap 的 Formula/mcat.rb，不要直接用这份文件安装——
-# 占位符不是真实的 tag 和校验和。
+# 由 mcat 仓库的 release workflow 自动生成，不要手动改。
 class Mcat < Formula
   desc "A cat that renders Markdown in the terminal"
   homepage "https://github.com/argsno/mcat"
