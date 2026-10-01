@@ -3,27 +3,27 @@ class Mcat < Formula
   desc "A cat that renders Markdown in the terminal"
   homepage "https://github.com/argsno/mcat"
   license "MIT"
-  version "0.1.0"
+  version "0.2.0"
 
   # 二进制分发，按架构/系统给四个象限各一份 tar.gz（都由 release workflow 构建）
   on_arm do
     on_macos do
-      url "https://github.com/argsno/mcat/releases/download/v0.1.0/mcat-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "12a376e5fe1677ba4cd3a80b393e550a20e4dbcef5ea0cac985c63ecc8c27632"
+      url "https://github.com/argsno/mcat/releases/download/v0.2.0/mcat-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "8ff13eb23b7c0cabce51c389fac3aa08925300bb4230c22c897e658bf59b31c4"
     end
     on_linux do
-      url "https://github.com/argsno/mcat/releases/download/v0.1.0/mcat-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ab946915147c35b2e989429f45f305ad4068279f8c7a550421752279ca4ae04b"
+      url "https://github.com/argsno/mcat/releases/download/v0.2.0/mcat-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "15dc6ad4c07d0e115eb076abeaef9a2debab38d059a6704889e94599b85eaa55"
     end
   end
   on_intel do
     on_macos do
-      url "https://github.com/argsno/mcat/releases/download/v0.1.0/mcat-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c7e04f02371ae8f3cf4366ee926534cca3246e3c519e9865940825971e45a7e9"
+      url "https://github.com/argsno/mcat/releases/download/v0.2.0/mcat-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "0df6d4392ecf75664daa64d243b69b88e07ad4df22985d4078918260b00c8989"
     end
     on_linux do
-      url "https://github.com/argsno/mcat/releases/download/v0.1.0/mcat-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2704694e00b9bee929a703ab95de38475bf81033ffc038d8365ecdb4fcd763fb"
+      url "https://github.com/argsno/mcat/releases/download/v0.2.0/mcat-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "68233ceeabfeaa79e7ee00afc47b19d505bb4bb347c07b8c5d45f363b24a1a92"
     end
   end
 
